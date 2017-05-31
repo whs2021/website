@@ -4,10 +4,11 @@ title: Class of 2021 Officers
 permalink: /officers/
 ---
 ---
-[Neil Kale | President](/officer/neil-kale)
 
-[Sarah Cox | Vice President](/officer/sarah-cox)
+[Neil Kale - President](/officer/neil-kale)
 
-[Isabella Binici | Secretary](/officer/isabella-binici)
+[Sarah Cox - Vice President](/officer/sarah-cox)
 
-[Cynthia Zhang | Treasurer](/officer/cynthia-zhang)
+[Isabella Binici - Secretary](/officer/isabella-binici)
+
+[Cynthia Zhang - Treasurer](/officer/cynthia-zhang)
