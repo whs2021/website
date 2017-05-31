@@ -11,9 +11,10 @@
     a {
       color: $white;
       text-decoration: none;
+      letter-spacing: normal;
     	cursor: pointer;
       &:hover{
-        color: darken($navbar-hover-color,20);
+        color: darken($navbar-hover-color,0);
       }
     }
 }

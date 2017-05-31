@@ -1,0 +1,16 @@
+- person: Neil Kale
+  role: President
+  bio: Placeholder
+  image: /images/headshots/neil.png
+- person: Sarah Cox
+  role: Vice President
+  bio: Placeholder
+  image: /images/headshots/sarah.png
+- person: Cynthia Zhang
+  role: Treasurer
+  bio: Placeholder
+  image: /images/headshots/cynthia.png
+- person: Isabella Binici
+  role: Secretary
+  bio: Placeholder
+  image: /images/headshots/isabella.png

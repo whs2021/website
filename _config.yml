@@ -18,12 +18,12 @@ footer-links:
   email: contact@whs2021.com
   facebook:
   flickr:
-  github: 
+  github:
   instagram:
-  linkedin: 
+  linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: 
+  twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/3807565/akshay"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -78,3 +78,8 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+page_gen:
+  - data: 'people'
+    template: 'profile'
+    name: 'person'
+    dir: 'officer'
