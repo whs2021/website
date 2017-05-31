@@ -1,3 +1,9 @@
+---
+layout: post
+title: Welcome!
+author: Theo Bleier
+---
+
 ##Hello!
 
 Welcome to the new 2021 Website! Here, the student officers will announce new projects, and things that are going on with the class of 2021! Be sure to check back later.
