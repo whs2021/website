@@ -173,8 +173,8 @@ button.button-primary:focus {
 }
 
 .ch-grid li {
-	width: 450px;
-	height: 450px;
+	width: 320px;
+	height: 320px;
 	display: inline-block;
 }
 
@@ -190,12 +190,19 @@ button.button-primary:focus {
 .ch-info-wrap,
 .ch-info{
 	position: absolute;
-	width: 450px;
-	height: 450px;
+	width: 320px;
+	height: 320px;
 	border-radius: 50%;
 }
 
-
+.ch-info-wrap {
+	top: 20px;
+	left: 20px;
+	background: #fff url(/images/bg.jpg);
+	box-shadow:
+		0 0 0 20px rgba(255,255,255,0.2),
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+}
 
 .ch-info > div {
 	display: block;
@@ -241,7 +248,7 @@ button.button-primary:focus {
 	letter-spacing: 2px;
 	font-size: 18px;
 	margin: 0 15px;
-	padding: 40px 0 0 0;
+	padding: 130px 0 0 0;
 	height: 80px;
 	font-family: 'Open Sans', Arial, sans-serif;
 	text-shadow:
@@ -272,4 +279,23 @@ button.button-primary:focus {
 
 .ch-info p a:hover {
 	color: darken($mono-color,10%);
+}
+
+.ch-item:hover .ch-info-front {
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	opacity: 0;
+}
+
+.ch-item:hover .ch-info-back {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+	pointer-events: auto;
 }
