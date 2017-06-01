@@ -15,3 +15,6 @@ If you do not know how to fork/pull request a repository on Github to add change
 
 # Adding StuCo/School Office members
 The format is pretty straight forward, edit the respective file under \_data, follow the current format and USE SPACES NOT TABS
+
+# Tech Details
+The website is built by CircleCI using Jekyll, where it is then mirrored to an s3 Bucket running behind Cloudfront for SSL support and global access.
